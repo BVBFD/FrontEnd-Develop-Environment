@@ -36,7 +36,7 @@
     // Possible errors
     "max-lines-per-function": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }],
     "max-lines": ["error", { "max": 300, "skipBlankLines": true, "skipComments": true }],
-    "no-console": [2, { "allow": ["warn", "error", "log"] }],
+    "no-console": "error",
     "react/function-component-definition": [
       "error",
       {
