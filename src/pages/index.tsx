@@ -10,9 +10,6 @@ export default function Home() {
     varTest = 'letTest';
     setTestArr([...testArr, varTest]);
   }, []);
-
-  console.log(testArr);
-
   // commit test in new config dev enviroment
 
   return (

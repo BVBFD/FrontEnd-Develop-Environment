@@ -1,23 +1,8 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json",
-    "sourceType": "module"
+    "project": "./tsconfig.json"
   },
-  "overrides": [
-    {
-      "files": ["./src/**/*.ts", "./src/**/*.tsx"],
-      "rules": {
-        "no-console": "error"
-      }
-    },
-    {
-      "files": ["!./src/**/*.ts", "!./src/**/*.tsx"],
-      "rules": {
-        "no-console": "off"
-      }
-    }
-  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
