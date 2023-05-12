@@ -12,6 +12,7 @@ export default function Home() {
   }, []);
 
   // commit test in new config dev enviroment
+  console.log('test');
 
   return (
     <>
