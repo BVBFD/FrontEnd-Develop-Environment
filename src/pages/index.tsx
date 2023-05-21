@@ -1,3 +1,4 @@
+import Test from '@/components/Test/Test';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
@@ -10,6 +11,7 @@ export default function Home() {
     varTest = 'letTest';
     setTestArr([...testArr, varTest]);
   }, []);
+
   // commit test in new config dev enviroment
 
   return (
@@ -31,11 +33,7 @@ export default function Home() {
         <link href="https://lsevina126.netlify.app" rel="canonical" />
         {/* SEO */}
       </Head>
-      <header>Blog Project Refactor</header>
-      <main>
-        <div>Main Box Contents</div>
-      </main>
-      <footer>Footer</footer>
+      <Test />
     </>
   );
 }
